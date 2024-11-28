@@ -1,0 +1,86 @@
+/* Main container */
+.main-cont {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: #e0fbfc;
+    padding: 20px 0;
+}
+
+/* Logo container */
+.logo-container {
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.home-btn {
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.about-us {
+    font-size: 1.25rem;
+    margin-left: 3rem;
+    cursor: pointer;
+    color: #ee6c4d;
+    font-weight: 700;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.auth-button {
+    background-color: #3d5a80;
+    border: 2px solid #3d5a80;
+    padding:5px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: transparent;
+    color: #ee6c4d;
+}
+
+/* Logged-in state */
+.logged-in {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    font-size: 1.5rem;
+    color: #ee6c4d;
+    margin-right: 1rem;
+}
+
+/* Mobile menu icon */
+.menu-icon {
+    display: block;
+}
+
+.menu-icon-img {
+    cursor: pointer;
+}
+
+/* Purple text for active page */
+.text-purple {
+    color: #ee6c4d;
+}

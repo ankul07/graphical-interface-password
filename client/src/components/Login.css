@@ -1,0 +1,94 @@
+/* Overall container */
+.login-container {
+    background-color: #ee6c4d;
+    text-align: center;
+    padding: 2rem;
+    color: #293241;
+    height: 110vh;
+}
+
+/* Login Form Styles */
+.login-form {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 2rem;
+}
+
+.login-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.login-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.login-inputs {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.input {
+    border-radius: 25px;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.button {
+    background-color: #3d5a80;
+    color: white;
+    border-radius: 25px;
+    width: 30%;
+    height: 3rem;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    border: 2px solid #3d5a80;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #3d5a80;
+}
+
+.image-selection-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin: auto;
+    
+}
+
+.image-selection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.instruction-text p {
+    font-size: 1.25rem;
+    margin-top: 1.8rem;
+    color: #ebf2fa;
+}
+
+.instruction-text span {
+    color: green;
+}
+
+.back-button {
+    border: 2px solid #3d5a80;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.back-icon {
+    font-size: 1.25rem;
+}

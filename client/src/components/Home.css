@@ -1,0 +1,153 @@
+.home-container {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #ee6c4d;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.image {
+    border-radius: 25px;
+    width: 100%;
+
+}
+
+.info-text {
+    color: #293241;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 1.5rem;
+}
+
+.know-more-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #3d5a80;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    border: 2px solid #3d5a80;
+    color: #e0fbfc;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.know-more-btn:hover {
+    background-color: transparent;
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
+
+.hidden-sm {
+    display: none;
+}
+
+.attack-section {
+    margin-top: 2rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.attack-header {
+    margin-left: 1.5rem;
+    padding-top: 6rem;
+}
+
+.attack-title {
+    color: #293241;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.attack-subtitle {
+    color: #293241;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+.attack-blocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+}
+
+.hover-img {
+    width: 100%;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+.hover-img:hover {
+    transform: scale(0.95);
+    box-shadow: 0px 0px 20px #e0fbfc;
+}
+.attack-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 20px;
+    padding-bottom: 4rem;
+}
+
+.data-blocks {
+    background-color: #3d5a80; /* Dark background for each block */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    width: calc(50% - 10px); /* 2 blocks per row with space between them */
+    box-sizing: border-box; /* Ensure padding doesn't affect width calculation */
+    transition: transform 0.3s ease-in-out;
+}
+
+.data-blocks:hover {
+    transform: translateY(-5px); /* Hover effect for lifting */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slight shadow on hover */
+}
+
+.data-blocks h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e0fbfc; /* Accent color */
+    margin-bottom: 15px;
+}
+
+.data-blocks p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #BDC3C7; /* Light grey color for text */
+}
+hr{
+    border:1px solid #293241;
+}
+.footer-text{
+    padding: 1rem;
+    text-align: center;
+    font-size: larger;
+    color: #293241;
+}
+@media (max-width: 768px) {
+    .data-blocks {
+        width: 100%; /* Full width for small screens */
+        margin-bottom: 20px; /* Add some space between blocks */
+    }
+}
+
